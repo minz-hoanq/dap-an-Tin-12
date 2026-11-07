@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101713">
+  <meta name="description" content="Thư viện hình ảnh đáp án các bài thực hành Tin học 12.">
+  <title>IT12 Answer Library</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/" aria-label="Về trang chủ">
+      <span class="brand-mark"><i data-icon="folder"></i></span>
+      <span>IT12 Answer Library</span>
+    </a>
+  </header>
+
+  <main id="app" class="container" aria-live="polite">
+    <div class="state-box"><div class="spinner"></div><p>Đang tải dữ liệu...</p></div>
+  </main>
+
+  <footer class="footer">
+    <p>IT12 Answer Library · Tài liệu tham khảo cho học sinh Tin học 12</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Xem ảnh">
+    <div class="lb-top">
+      <div class="lb-title">
+        <strong id="lb-name"></strong>
+        <span id="lb-count"></span>
+      </div>
+      <div class="lb-tools">
+        <button class="icon-btn" id="lb-zoom-out" aria-label="Thu nhỏ"><i data-icon="zoom-out"></i></button>
+        <button class="zoom-label" id="lb-reset" aria-label="Đặt lại kích thước">100%</button>
+        <button class="icon-btn" id="lb-zoom-in" aria-label="Phóng to"><i data-icon="zoom-in"></i></button>
+        <a class="icon-btn" id="lb-original" target="_blank" rel="noopener" aria-label="Mở ảnh gốc ở tab mới"><i data-icon="external-link"></i></a>
+        <a class="icon-btn" id="lb-download" download aria-label="Tải ảnh xuống"><i data-icon="download"></i></a>
+        <button class="icon-btn" id="lb-close" aria-label="Đóng"><i data-icon="x"></i></button>
+      </div>
+    </div>
+    <div class="lb-stage" id="lb-stage">
+      <div class="spinner lb-spinner" id="lb-spinner"></div>
+      <img id="lb-img" alt="" draggable="false">
+      <div class="lb-error" id="lb-error" hidden><i data-icon="image"></i><p>Không tải được ảnh này.</p></div>
+    </div>
+    <button class="lb-nav prev" id="lb-prev" aria-label="Ảnh trước"><i data-icon="chevron-left"></i></button>
+    <button class="lb-nav next" id="lb-next" aria-label="Ảnh sau"><i data-icon="chevron-right"></i></button>
+  </div>
+
+  <script src="js/gallery.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

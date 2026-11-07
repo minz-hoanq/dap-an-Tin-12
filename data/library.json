@@ -1,0 +1,64 @@
+{
+  "folders": [
+    {
+      "id": "trang-50",
+      "name": "Bài thực hành trang 50",
+      "description": "Đáp án bài thực hành Tin học 12 (ảnh mẫu)",
+      "path": "images/bai-thuc-hanh-trang-50/",
+      "images": [
+        {
+          "name": "Bài 1",
+          "file": "bai-1.png"
+        },
+        {
+          "name": "Bài 2",
+          "file": "bai-2.png"
+        },
+        {
+          "name": "Bài 3",
+          "file": "bai-3.png"
+        }
+      ]
+    },
+    {
+      "id": "trang-55",
+      "name": "Bài thực hành trang 55",
+      "description": "Đáp án tổng hợp trang 55 (ảnh mẫu)",
+      "path": "images/bai-thuc-hanh-trang-55/",
+      "images": [
+        {
+          "name": "Đáp án",
+          "file": "dap-an.png"
+        }
+      ]
+    },
+    {
+      "id": "trang-60",
+      "name": "Bài thực hành trang 60",
+      "description": "Đáp án tổng hợp trang 60 (ảnh mẫu)",
+      "path": "images/bai-thuc-hanh-trang-60/",
+      "images": [
+        {
+          "name": "Đáp án",
+          "file": "dap-an.png"
+        }
+      ]
+    },
+    {
+      "id": "trang-65",
+      "name": "Bài thực hành trang 65",
+      "description": "Thư mục mẫu có 2 ảnh",
+      "path": "images/bai-thuc-hanh-trang-65/",
+      "images": [
+        {
+          "name": "Bước 1",
+          "file": "buoc-1.png"
+        },
+        {
+          "name": "Bước 2",
+          "file": "buoc-2.png"
+        }
+      ]
+    }
+  ]
+}
